@@ -32,7 +32,7 @@ with open(pathToModel, "rb") as model_predict:
 #%% create api
 @app.route("/")
 def home():
-    return "Hello, welcome to the credit scoring api"
+    return "Hello, Bienvenue dans l'API du Risque de Crédit"
 
 
 @app.route("/prediction/<ID>", methods=["GET"])
